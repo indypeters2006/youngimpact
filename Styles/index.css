@@ -2,19 +2,15 @@
     display: grid;
     gap: 1rem;
     grid-auto-flow: column;
-
-
 }
 
 .navImg {
    
-    
+    float: left;
     height: 100px;
-    
-
-
-
+    transition: border 1s;
 }
+
 
 
 .link {
@@ -32,7 +28,6 @@
 
 .footerImg {
     float: left;
-    
 
 }
 
@@ -89,7 +84,6 @@
     overflow: scroll;
     width: 63%;
     
-
 }
 
 
@@ -100,13 +94,17 @@
     max-height: 100%;
     max-width: 100%;
 
-
-
 }
 
 
 .container {
     text-align: center;
-    
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    float: left;
+    transition: border 1s, 2s;
 
 }
+
+
