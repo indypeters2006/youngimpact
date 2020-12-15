@@ -1,35 +1,79 @@
-.header {
+
+.link {
+    border: none;
+    color: lightsalmon;
+    background-color: darkblue;
+    max-width: 120%;
+}
+
+.link2 {
+    color: lightseagreen;
+    background-color: darkblue;
+
+}
+
+.nav {
     text-align: left;
     padding: 2px;
-    background-color: blue;
+    background-color: darkblue;
     color:white;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    height: 5%;
     font-size: xx-large;
-   
+}
 
-
-
+.header, .content {
+    height: 30%;
+    /* border: 1px solid #bbbbbb; */
+    
 }
 
 
 #wrapper1 {
-    display: inline-block;
+    /* display: inline-block;  */
+    float: left;
+    /* border: 1px solid #bbbbbb; */
+    height: 100%;
 
 }
 
 #wrapper2 {
-    display: inline-block;
+    /* display: inline-block; */
+    float: right;
+    /* border:  1px solid #bbbbbb; */
+    height: 100%
+    
 
 }
+
+#wrapper3 {
+    /* display: inline-block;  */
+    float: right;
+    /* border: 1px solid #bbbbbb; */
+  
+   
+
+}
+
+#wrapper4 {
+    /* display: inline-block; */
+    float: left;
+    border:  1px solid #bbbbbb;
+    height: 100%;
+    overflow: scroll;
+    width: 63%;
+    
+
+}
+
 
 .img1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    max-height: 100%;
+    max-width: 100%;
 
 
 
