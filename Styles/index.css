@@ -1,3 +1,21 @@
+.row {
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: column;
+
+
+}
+
+.navImg {
+   
+    
+    height: 100px;
+    
+
+
+
+}
+
 
 .link {
     border: none;
@@ -12,6 +30,12 @@
 
 }
 
+.footerImg {
+    float: left;
+    
+
+}
+
 .nav {
     text-align: left;
     padding: 2px;
@@ -21,6 +45,7 @@
     position: sticky;
     top: 0;
     font-size: xx-large;
+    z-index: 100;;
 }
 
 .header, .content {
@@ -80,3 +105,8 @@
 }
 
 
+.container {
+    text-align: center;
+    
+
+}
